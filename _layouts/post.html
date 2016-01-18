@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {{ page.title }} • {{ site.title_short }}
+  </title>
+
+  <meta property="og:site_name"          content="{{ site.title_full }}" /
+
+  <meta property="og:url"                content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:type"               content="article" />
+  <meta property="og:title"              content="{{ page.title }}" />
+  <meta property="og:description"        content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 100 }}" />
+  <meta name="description"               content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 100 }}" />
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,900italic,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+  <link rel="icon" href="/resources/favicon.ico" type="image/png" />
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="/resources/styles/needsharebutton.min.css">
+</head>
+
+<body>
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="post">
+        <div class="back-to-index-wrapper">
+          <a href="/" class="back-to-index">
+            back to index
+          </a>
+        </div>
+
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+
+          <p class="post-meta">
+            <span class="post-meta-elem post-share" id="share" data-share-position="middleRight" data-share-icon-style="box" data-share-networks="Mailto,Twitter,Facebook,Linkedin">
+            </span>
+            ·
+            <span class="post-meta-elem post-chars">
+              {% assign wordCount = page.content | strip_html | number_of_words %}
+              {% assign numMins = wordCount | divided_by: 200 | plus: 1 %}
+              {{wordCount}} words, ~ {{numMins}} {% if numMins > 1 %}mins{% else %}min{% endif %} read
+            </span>
+            ·
+            <span class="post-meta-elem post-date">
+              {{ page.date | date: "%b %-d, %Y" }}
+            </span>
+          </p>
+        </header>
+
+        <article class="post-content">
+          {{ content }}
+        </article>
+
+        {% include footer.html %}
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-44510618-1', 'constantbetasoftware.com');
+    ga('send', 'pageview');
+  </script>
+  <script src="/resources/scripts/needsharebutton.min.js"></script>
+    <script>
+      new needShareDropdown(document.getElementById('share'));
+    </script>
+
+</body>
+</html>

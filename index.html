@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="index">
+  <ul class="posts-list">
+    {% for post in site.posts %}
+      {% include post_snippet.html %}
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="copyright">
+  © 2015 constant beta software
+</div>

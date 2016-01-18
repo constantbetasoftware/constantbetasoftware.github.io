@@ -1,0 +1,33 @@
+<li class="post-snippet">
+  <span class="post-title">
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+      {{ post.title }}
+    </a>
+  </span>
+
+  <div class="post-content-snippet">
+    {% if post.content.size > 50 %}
+      {{ post.content | strip_html | strip_newlines | truncatewords: 50 }}
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+  </div>
+
+  <div class="post-meta">
+    <span class="post-read">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        Read More
+      </a>
+    </span>
+    ·
+    <span class="post-chars">
+      {% assign wordCount = post.content | strip_html | number_of_words %}
+      {% assign numMins = wordCount | divided_by: 200 | plus: 1 %}
+      {{wordCount}} words, ~ {{numMins}} {% if numMins > 1 %}mins{% else %}min{% endif %} read
+    </span>
+    ·
+    <span class="post-date">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </span>
+  </div>
+</li>

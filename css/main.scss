@@ -1,0 +1,195 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: 'Lato', Helvetica, Arial, sans-serif;
+$base-font-size:   17px;
+$small-font-size:  15px;
+$smaller-font-size:  14px;
+$larger-font-size:  20px;
+$base-line-height: 1.8;
+$base-letter-spacing: -0.003em;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1000px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "base",
+  "syntax-highlighting"
+;
+
+// ----------------------------------------------------------------------------
+// LAYOUT
+// ----------------------------------------------------------------------------
+
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+// ----------------------------------------------------------------------------
+// COMMON
+// ----------------------------------------------------------------------------
+
+.header {
+  .title {
+    margin-bottom: 0px;
+
+    a {
+      color: #2D2D2D;
+    }
+  }
+
+  .links {
+    font-size: $small-font-size;
+
+    span:first-child {
+      margin-left: 0px;
+    }
+    span:last-child {
+      margin-right: 0px;
+    }
+    span {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.footer {
+  margin-top: 50px;
+
+  span:last-child {
+    margin-right: 0px;
+  }
+  span {
+    font-size: $smaller-font-size;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.copyright {
+  font-size: $smaller-font-size;
+  font-weight: 200;
+}
+
+// ----------------------------------------------------------------------------
+// INDEX
+// ----------------------------------------------------------------------------
+
+.index {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  .posts-list {
+    min-height: 400px;
+    margin: 0px;
+    list-style: none;
+
+    .post-snippet:last-child {
+      border-bottom: none;
+    }
+
+    .post-snippet {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #CCC;
+
+      .post-title {
+        font-size: $larger-font-size;
+      }
+      .post-content-snippet {
+        font-size: $small-font-size;
+      }
+      .post-date {
+        font-size: $smaller-font-size;
+        color: $grey-color;
+        margin-left: 5px;
+      }
+      .post-chars {
+        font-size: $smaller-font-size;
+        color: $grey-color;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .post-read {
+        font-size: $smaller-font-size;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+// ----------------------------------------------------------------------------
+// POST
+// ----------------------------------------------------------------------------
+
+.post {
+  .back-to-index-wrapper {
+    margin-bottom: 20px;
+
+    .back-to-index {
+      font-size: $smaller-font-size;
+    }
+  }
+
+  .post-header {
+    .post-title {
+      margin: 0;
+    }
+
+    .post-meta {
+      .post-meta-elem {
+        font-size: $smaller-font-size;
+        color: $grey-color;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .post-meta-elem:first-child {
+        margin-left: 0px;
+      }
+      .post-meta-elem:last-child {
+        margin-right: 0px;
+      }
+      .post-share {
+        color: $brand-color;
+        font-weight: normal;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .post-content {
+    margin-top: 50px;
+    min-height: 400px;
+  }
+}
