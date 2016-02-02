@@ -86,8 +86,6 @@ So Move, Fast and Slowly. Or as they might say in the Valley: Release fast, Rele
 
 
 
-### Footnotes
-
 [^1]: It's also the case that you were probably just been "Hacking" away. Today you have proper "Engineering", and that takes a lot of manpower to maintain.
 
 [^2]: One could also argue that the slowdown is inevitable but I don't agree. Yes, going depthwise will be harder as the search space for useful features in that particular area will exhaust, but there will be no lack of options breadthwise.

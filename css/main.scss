@@ -47,6 +47,16 @@ $on-laptop:        800px;
   "syntax-highlighting"
 ;
 
+.footnotes {
+  font-size: 13px;
+  margin-top: 100px;
+}
+.footnotes::before {
+  content: "Footnotes";
+  font-size: $larger-font-size;
+  font-weight: 700;
+}
+
 // ----------------------------------------------------------------------------
 // LAYOUT
 // ----------------------------------------------------------------------------
