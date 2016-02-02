@@ -5,8 +5,8 @@ title: Reblog - Chinese Mobile UI Trends
 
 A recommended reading to get a little understanding of how things operate on the other side of the World.
 
-["More Chinese Mobile UI Trends"](http://dangrover.com/blog/2015/01/31/more-chinese-mobile-ui-trends.html) [^1]
-and ["Chinese Mobile App UI Trends" (December 2014)](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html)
+["More Chinese Mobile UI Trends"](http://dangrover.com/blog/2015/01/31/more-chinese-mobile-ui-trends.html){:target="_blank"} [^1]
+and ["Chinese Mobile App UI Trends" (December 2014)](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html){:target="_blank"}
 
 Quick Summary:
 
@@ -15,7 +15,7 @@ Quick Summary:
 - weird icons ('cause it's Asia)
 - they type differently over there (which translates into a different use case for the keyboard)
 - custom browsers (oh boy...)
-- limited connectivity (which reminds me that [you should read this](http://idlewords.com/talks/website_obesity.htm), icymi)
+- limited connectivity (which reminds me that [you should read this](http://idlewords.com/talks/website_obesity.htm){:target="_blank"}, icymi)
 - 1 click buy (suck it, amazon!)
 - bots! (take that, google!)
 
