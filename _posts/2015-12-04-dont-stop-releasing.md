@@ -11,7 +11,7 @@ How did writing about *Feature Parity Between Your Apps is a Bad Idea* turn into
 
 You have multiple versions of an app for the different platforms (e.g. web, android, ios) and new features are held back from release until they are implemented in all of them.
 
-There isn't really a good argument for this, it's usually simply caused by [System 1](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow#Two_systems) being in charge.
+There isn't really a good argument for this, it's usually simply caused by [System 1](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow#Two_systems){:target="_blank"} being in charge.
 
 What commonly happens is that the new feature is added to the current sprint of all of the projects and deployment often happens in sync because there will be some dependencies, e.g. apps will need new changes to the backend but the backend project is going to be ready before the apps (it generally moves faster). So the backend will wait for the apps to be ready before deploying those specific changes to production. It's just safer to deploy everything at the same time to easily trace any problem that might arise, instead of having to go back and forth.
 
@@ -64,7 +64,7 @@ That might manifest itself in rearranging the structure of your organization [^5
 
 I believe that the best way to get back on track would be to go back to the roots.
 This is when having a *mission* is important, it serves as a guideline for where the company wants to go.
-(And I'm also a fan of [Backward Chaining](https://en.wikipedia.org/wiki/Backward_chaining)).
+(And I'm also a fan of [Backward Chaining](https://en.wikipedia.org/wiki/Backward_chaining){:target="_blank"}).
 
 For our scenario, take a step back and look at the current state of things:
 Are all platforms equally important? How many users do you have in Android or iOS or Web? How many Engineers are you allocating to each?

@@ -55,6 +55,6 @@ When deciding if they were going to keep the "You've already bought this product
 
 ### Bonus
 
-[“Experiments are key to innovation because they rarely turn out as you expect and you learn so much (...) We’ve tried to reduce the cost of doing experiments so that we can do more of them. If you can increase the number of experiments you try from a hundred to a thousand, you dramatically increase the number of innovations you produce.”](http://fortune.com/2015/09/17/amazon-founder-ceo-jeff-bezos-skills/)
+[“Experiments are key to innovation because they rarely turn out as you expect and you learn so much (...) We’ve tried to reduce the cost of doing experiments so that we can do more of them. If you can increase the number of experiments you try from a hundred to a thousand, you dramatically increase the number of innovations you produce.”](http://fortune.com/2015/09/17/amazon-founder-ceo-jeff-bezos-skills/){:target="_blank"}
 
 
