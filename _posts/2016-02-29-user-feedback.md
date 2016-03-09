@@ -152,7 +152,7 @@ Still,
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Startups are better off talking to users than x, for almost all values of x.</p>&mdash; Paul Graham (@paulg) <a href="https://twitter.com/paulg/status/705173853509591040">March 2, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-![\#squadgoals](/resources/2016-02-29-user-feedback/squadgoals.jpg)
+![\#squadgoals](/resources/2016-02-29-user-feedback/squadgoals.jpg)[^4]
 
 \#squadgoals
 
@@ -174,3 +174,4 @@ Still,
 
 [^3]: Coincidentally the new Facebook Reactions are trying to address this in regards to posts.
 
+[^4]: Forgot who took this picture. Saw it on Facebook. If that was you, please contact me for attribution.
