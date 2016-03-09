@@ -172,5 +172,5 @@ Still,
 
 [^2]: Other resources for product development: reading, analyzing competitors, observing the world.
 
-[^3]: Coincidentally the new Facebook Reactions are trying to address this in regards to posts?
+[^3]: Coincidentally the new Facebook Reactions are trying to address this in regards to posts.
 
