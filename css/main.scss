@@ -98,6 +98,9 @@ $on-laptop:        800px;
 .footer {
   margin-top: 50px;
 
+  span:first-child {
+    margin-left: 0px;
+  }
   span:last-child {
     margin-right: 0px;
   }
