@@ -8,12 +8,19 @@
     {{ page.title }} • {{ site.title_short }}
   </title>
 
-  <meta property="og:site_name"      content="{{ site.title_full }}" /
-
-  <meta property="og:url"            content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <!-- facebook open graph -->
+  <meta property="og:site_name"      content="{{ site.title_full }}" />
   <meta property="og:type"           content="article" />
+  <meta property="og:url"            content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:title"          content="{{ page.title }}" />
-  <meta name="og:description"        content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 100 }}" />
+  <meta property="og:description"    content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 100 }}" />
+
+  <!-- twitter cards -->
+  <meta name="twitter:domain"        content="{{ site.url }}" />
+  <meta name="twitter:title"         content="{{ page.title }}" />
+  <meta name="twitter:description"   content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 100 }}" />
+  <meta name="twitter:url"           content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+
   <meta name="description"           content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 100 }}" />
 
   <link rel="stylesheet" href="/resources/styles/needsharebutton.min.css">
