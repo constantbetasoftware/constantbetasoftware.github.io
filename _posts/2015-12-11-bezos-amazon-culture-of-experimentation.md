@@ -10,7 +10,7 @@ I believe it maps directly into Product innovation and how you should be operati
 
 Here are the Key Takeaways:
 
-### Experiment! (13:26)
+### [Experiment! (13:26)](https://youtu.be/WhnDvvNS8zQ?t=807){:target="_blank"}
 
 Bezos tells you how important experimentation is for innovation and how you need to make sure there are very few barriers for people to do it.
 
@@ -29,7 +29,7 @@ He also goes on to say how one of the things they've done over the years is to m
 
 
 
-### Inventing on the Ground (20:18)
+### [Inventing on the Ground (20:18)](https://youtu.be/WhnDvvNS8zQ?t=1218){:target="_blank"}
 
 > A lot of the most important inventions happen at the finest granularity, so incremental improvements in unit productivity are critical
 
@@ -41,13 +41,13 @@ Here Bezos gives the example of an improvement in Amazon's warehouses, and how t
 
 
 
-### Don't Disregard Intuition (26:00)
+### [Don't Disregard Intuition (26:00)](https://youtu.be/WhnDvvNS8zQ?t=1560){:target="_blank"}
 
 When deciding if they were going to keep the "You've already bought this product before" feature, they made an intuitive bet, overriding what the data from the tests suggested, because they believed this feature made Amazon more valuable to the users.
 
 
 
-### You Won't Be Able to Escape This (34:50)
+### [You Won't Be Able to Escape This (34:50)](https://youtu.be/WhnDvvNS8zQ?t=2090){:target="_blank"}
 
 > Invention is always going to lead you down paths that people are gonna think are weird.
 
