@@ -3,7 +3,7 @@ layout: post
 title: Hello, World!
 ---
 
-Welcome to constant beta software, a blog where I write about technology, startups and their products.
+Welcome to constant beta software, a blog where I write about technology, startups, and their products.
 
 I intend to dissect companies and products, guess how they got where they are and where they can go.
 
